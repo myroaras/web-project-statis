@@ -1,0 +1,225 @@
+<html lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Website Informasi Mahasiswa
+    </title>
+    <link href="/assets/logo.png" rel="icon" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&amp;display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer>
+        document.addEventListener("DOMContentLoaded", function () {
+            const button = document.getElementById('menu-button');
+            const menu = document.getElementById('menu');
+            if (button && menu) {
+                button.addEventListener('click', function () {
+                    menu.classList.toggle('hidden');
+                });
+            }
+        });
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <nav class="bg-blue-500 text-white p-4 flex justify-between items-center fixed top-0 left-0 w-full z-50">
+        <div class="flex items-center space-x-2 text-lg font-semibold">
+            <img alt="Logo Student Life Hub" class="h-10 w-10 rounded-md" src="/assets/logo.png" />
+            <a class="hover:border-b-2 border-white pb-1" href="/index.html">
+                Student Life Hub
+            </a>
+        </div>
+
+        <!-- Hamburger Menu Button -->
+        <button id="menu-button" class="md:hidden focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+
+        <!-- Navbar Links -->
+        <div id="menu"
+            class="hidden md:flex flex-col md:flex-row md:static absolute top-16 left-0 w-full md:w-auto md:bg-transparent bg-blue-500 md:items-center items-start p-4 md:p-0 shadow-lg md:shadow-none space-y-2 md:space-y-0 md:space-x-4">
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="/index.html">Home</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2"
+                href="/halamanUtama/halamanSemuaProfile.html">Student
+                Profile</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="/halamanUtama/galeri.html">Gallery</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#event">Class Events</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#Discussion">Discussion Forums</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#tentang">About the Class</a>
+        </div>
+    </nav>
+    <br>
+    <main class="container mx-auto p-4" id="Discussion">
+        <section class="py-16" id="forum">
+            <h2 class="text-3xl font-semibold text-center mb-8">
+                Discussion Forums
+            </h2>
+            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-aos="fade-down">
+                <a href="/kumpulan Artikel/artikelMakeUp.html"
+                    class="group bg-white max-w-md w-full mx-auto overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                    <img src="/assets/makeup-cosmetics.webp" alt="Makeup article"
+                        class="w-full h-auto object-cover transition-transform duration-500 transform group-hover:scale-105"
+                        height="400" width="600" />
+                    <div class="p-6">
+                        <div
+                            class="flex items-center text-indigo-600 text-sm font-bold mb-2 space-x-1 uppercase tracking-wider">
+                            <span class="bg-indigo-100 text-indigo-800 px-2 py-1 rounded">Group 1</span>
+                        </div>
+                        <h2
+                            class="text-gray-900 font-black text-2xl leading-snug hover:text-indigo-600 transition-colors duration-300">
+                            Makeup in 2025: Beyond Beauty—A Lifestyle of Expression and Care
+                        </h2>
+                        <div
+                            class="mt-6 flex items-center text-black text-sm font-extrabold tracking-widest space-x-2 cursor-pointer select-none">
+                            <i class="fas fa-bars"></i>
+                            <span>Read</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="/kumpulan Artikel/artikelgame.html"
+                    class="group bg-white max-w-md w-full mx-auto overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                    <img src="/assets/game.webp" alt="Game article"
+                        class="w-full h-auto object-cover transition-transform duration-500 transform group-hover:scale-105"
+                        height="400" width="600" />
+                    <div class="p-6">
+                        <div
+                            class="flex items-center text-indigo-600 text-sm font-bold mb-2 space-x-1 uppercase tracking-wider">
+                            <span class="bg-indigo-100 text-indigo-800 px-2 py-1 rounded">Group 2</span>
+                        </div>
+                        <h2
+                            class="text-gray-900 font-black text-2xl leading-snug hover:text-indigo-600 transition-colors duration-300">
+                            Gaming in 2025: A New Era of Digital Expression, Community, and Innovation
+                        </h2>
+                        <div
+                            class="mt-6 flex items-center text-black text-sm font-extrabold tracking-widest space-x-2 cursor-pointer select-none">
+                            <i class="fas fa-bars"></i>
+                            <span>Read</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="/kumpulan Artikel/artikelFashion.html"
+                    class="group bg-white max-w-md w-full mx-auto overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                    <img src="/assets/fashion.jpg" alt="Fashion article"
+                        class="w-full h-auto object-cover transition-transform duration-500 transform group-hover:scale-105"
+                        height="400" width="600" />
+                    <div class="p-6">
+                        <div
+                            class="flex items-center text-indigo-600 text-sm font-bold mb-2 space-x-1 uppercase tracking-wider">
+                            <span class="bg-indigo-100 text-indigo-800 px-2 py-1 rounded">Group 3</span>
+                        </div>
+                        <h2
+                            class="text-gray-900 font-black text-2xl leading-snug hover:text-indigo-600 transition-colors duration-300">
+                            The Fabric of Tomorrow: Fashion's Evolving Narrative
+                        </h2>
+                        <div
+                            class="mt-6 flex items-center text-black text-sm font-extrabold tracking-widest space-x-2 cursor-pointer select-none">
+                            <i class="fas fa-bars"></i>
+                            <span>Read</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="/kumpulan Artikel/artikelOlahraga.html"
+                    class="group bg-white max-w-md w-full mx-auto overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                    <img src="/assets/olaharaga.jpg" alt="sports article"
+                        class="w-full h-auto object-cover transition-transform duration-500 transform group-hover:scale-105"
+                        height="400" width="600" />
+                    <div class="p-6">
+                        <div
+                            class="flex items-center text-indigo-600 text-sm font-bold mb-2 space-x-1 uppercase tracking-wider">
+                            <span class="bg-indigo-100 text-indigo-800 px-2 py-1 rounded">Group 4</span>
+                        </div>
+                        <h2
+                            class="text-gray-900 font-black text-2xl leading-snug hover:text-indigo-600 transition-colors duration-300">
+                            Sports in 2025: Beyond Fitness—A Way of Life, Identity, and Connection
+                        </h2>
+                        <div
+                            class="mt-6 flex items-center text-black text-sm font-extrabold tracking-widest space-x-2 cursor-pointer select-none">
+                            <i class="fas fa-bars"></i>
+                            <span>Read</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="/kumpulan Artikel/artikelMusik.html"
+                    class="group bg-white max-w-md w-full mx-auto overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                    <img src="/assets/musik.jpg" alt="Music article"
+                        class="w-full h-auto object-cover transition-transform duration-500 transform group-hover:scale-105"
+                        height="400" width="600" />
+                    <div class="p-6">
+                        <div
+                            class="flex items-center text-indigo-600 text-sm font-bold mb-2 space-x-1 uppercase tracking-wider">
+                            <span class="bg-indigo-100 text-indigo-800 px-2 py-1 rounded">Group 5</span>
+                        </div>
+                        <h2
+                            class="text-gray-900 font-black text-2xl leading-snug hover:text-indigo-600 transition-colors duration-300">
+                            The Multifaceted Nature of Music: Exploring Its Types, Functions, and Cultural Significance
+                        </h2>
+                        <div
+                            class="mt-6 flex items-center text-black text-sm font-extrabold tracking-widest space-x-2 cursor-pointer select-none">
+                            <i class="fas fa-bars"></i>
+                            <span>Read</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="/kumpulan Artikel/artikelTecnology.html"
+                    class="group bg-white max-w-md w-full mx-auto overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                    <img src="/assets/OIP.jpg" alt="Technology discussion"
+                        class="w-full h-auto object-cover transition-transform duration-500 transform group-hover:scale-105"
+                        height="400" width="600" />
+                    <div class="p-6">
+                        <div
+                            class="flex items-center text-indigo-600 text-sm font-bold mb-2 space-x-1 uppercase tracking-wider">
+                            <span class="bg-indigo-100 text-indigo-800 px-2 py-1 rounded">Group 6</span>
+                        </div>
+                        <h2
+                            class="text-gray-900 font-black text-2xl leading-snug hover:text-indigo-600 transition-colors duration-300">
+                            The Digital Pulse: How Everyday Technology is Quietly Reshaping Our Future
+                        </h2>
+                        <div
+                            class="mt-6 flex items-center text-black text-sm font-extrabold tracking-widest space-x-2 cursor-pointer select-none">
+                            <i class="fas fa-bars"></i>
+                            <span>Read</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="/kumpulan Artikel/artikelMasak.html"
+                    class="group bg-white max-w-md w-full mx-auto overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                    <img src="/assets/memasak.webp" alt="Cooking discussion"
+                        class="w-full h-auto object-cover transition-transform duration-500 transform group-hover:scale-105"
+                        height="400" width="600" />
+                    <div class="p-6">
+                        <div
+                            class="flex items-center text-indigo-600 text-sm font-bold mb-2 space-x-1 uppercase tracking-wider">
+                            <span class="bg-indigo-100 text-indigo-800 px-2 py-1 rounded">Group 7</span>
+                        </div>
+                        <h2
+                            class="text-gray-900 font-black text-2xl leading-snug hover:text-indigo-600 transition-colors duration-300">
+                            The Flavorful Journey: Rediscovering the Heart of Home Cooking
+                        </h2>
+                        <div
+                            class="mt-6 flex items-center text-black text-sm font-extrabold tracking-widest space-x-2 cursor-pointer select-none">
+                            <i class="fas fa-bars"></i>
+                            <span>Read</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-blue-500 text-white text-center py-4">
+        <p>
+            © 2025 Student Life Hub. All rights reserved.
+        </p>
+    </footer>
+</body>
+
+</html>

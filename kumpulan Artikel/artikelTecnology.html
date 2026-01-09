@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Student Life Hub
+    </title>
+    <link rel="icon" type="image/png" href="/assets/logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet" />
+    <script defer>
+        document.addEventListener("DOMContentLoaded", function () {
+            const button = document.getElementById('menu-button');
+            const menu = document.getElementById('menu');
+            if (button && menu) {
+                button.addEventListener('click', function () {
+                    menu.classList.toggle('hidden');
+                });
+            }
+        });
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <nav class="bg-blue-500 text-white p-4 flex justify-between items-center fixed top-0 left-0 w-full z-50">
+        <div class="flex items-center space-x-2 text-lg font-semibold">
+            <img alt="Logo Student Life Hub" class="h-10 w-10 rounded-md" src="/assets/logo.png" />
+            <a class="hover:border-b-2 border-white pb-1" href="/index.html">
+                Student Life Hub
+            </a>
+        </div>
+
+        <!-- Hamburger Menu Button -->
+        <button id="menu-button" class="md:hidden focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+
+        <!-- Navbar Links -->
+        <div id="menu"
+            class="hidden md:flex flex-col md:flex-row md:static absolute top-16 left-0 w-full md:w-auto md:bg-transparent bg-blue-500 md:items-center items-start p-4 md:p-0 shadow-lg md:shadow-none space-y-2 md:space-y-0 md:space-x-4">
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="/index.html">Home</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2"
+                href="/halamanUtama/halamanSemuaProfile.html">Student Profile</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="/halamanUtama/galeri.html">Gallery</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#event">Class Events</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#forum">Discussion Forums</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#tentang">About the Class</a>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Article Full Section Example - Like National Geographic Style -->
+    <section
+        class="max-w-4xl mx-auto px-6 py-12 text-gray-900 font-serif leading-relaxed bg-white shadow-xl rounded-lg">
+        <h1 class="text-5xl font-bold text-center text-gray-800 mb-4">
+            The Digital Pulse: How Everyday Technology is Quietly Reshaping Our Future
+        </h1>
+
+        <!-- Nama penulis dan tanggal -->
+        <p class="text-center text-sm text-gray-600 mb-10">
+            Written by <strong>Group 6</strong> — Thematic Focus: <em>Technology & Society</em> · May 2025
+        </p>
+
+        <figure class="mb-8">
+            <img src="/assets/OIP.jpg" alt="Exploring Culture" class="rounded-md shadow-md w-[400px] h-[400px] mx-auto">
+            <figcaption class="text-sm text-gray-500 text-center mt-2">
+                Students immerse themselves in language by understanding Technology. © 2025 Student Life Hub
+            </figcaption>
+        </figure>
+
+        <article>
+
+            <p class="mb-6 text-lg">
+                In the shadow of skyscrapers and among the rice paddies of rural Indonesia, a quiet transformation is
+                unfolding. Technology, once reserved for the elite and the urban, is becoming deeply embedded in the
+                lives of everyday people—from small farmers to high school students. Unlike the flashy predictions of
+                the past, where robots and hovercars stole the stage, today’s tech revolution thrives on subtlety,
+                accessibility, and adaptability.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">A Nation Wired: Connectivity at the Core</h2>
+
+            <p class="mb-6 text-lg">
+                Over the past decade, Indonesia has experienced one of the fastest expansions in mobile internet access
+                in the world. With over 200 million smartphone users, the archipelago is now one of the most connected
+                countries in Southeast Asia. But what does this mean for its citizens?
+            </p>
+
+            <p class="mb-6 text-lg">
+                For Wira, a fisherman in Sulawesi, it means using weather forecasting apps to avoid dangerous storms.
+                For Indah, a single mother in Yogyakarta, it means running a small fashion business entirely through
+                Instagram and WhatsApp. Connectivity has not just bridged distances—it has created lifelines.
+            </p>
+
+            <div class="border-l-4 border-blue-600 pl-4 italic text-gray-700 mb-6">
+                "The internet is no longer a luxury—it’s a survival tool," says Dr. Amalia Sari, a digital development
+                expert at Universitas Indonesia.
+            </div>
+
+            <h2 class="text-2xl font-semibold mb-4">Tech in the Classroom: A New Kind of Learning</h2>
+
+            <p class="mb-6 text-lg">
+                Traditional chalkboards are giving way to smart screens and learning apps. Schools in remote areas now
+                use solar-powered tablets to access national curricula, leveling the educational playing field between
+                urban and rural students. Platforms like Zenius and Ruangguru not only help students prepare for exams,
+                but also gamify learning—making it interactive and enjoyable.
+            </p>
+
+            <p class="mb-6 text-lg">
+                Some classrooms are experimenting with augmented reality to teach biology, allowing students to explore
+                the human body in 3D. Language apps use speech recognition to teach pronunciation. Even coding has made
+                its way into elementary curricula, introducing children to logic and computational thinking at an early
+                age.
+            </p>
+
+            <div class="border-l-4 border-blue-600 pl-4 italic text-gray-700 mb-6">
+                "Our children will not just use technology—they will shape it," says Mr. Ridwan, a computer science
+                teacher in Bandung.
+            </div>
+
+            <h2 class="text-2xl font-semibold mb-4">Smart Cities and Urban Innovation</h2>
+
+            <p class="mb-6 text-lg">
+                Jakarta, Bandung, and Surabaya are racing to become smart cities. Traffic sensors, pollution monitors,
+                and mobile apps for public services are being integrated into daily operations. Citizens can report
+                potholes, check real-time bus arrivals, or even apply for documents without ever entering a government
+                office.
+            </p>
+
+            <p class="mb-6 text-lg">
+                These changes are not just about convenience—they represent a new social contract between people and
+                technology. But they also raise questions about data privacy, digital ethics, and who controls the
+                infrastructure of daily life.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">Innovation for the Planet</h2>
+
+            <p class="mb-6 text-lg">
+                Climate change is accelerating, and technology is offering both warnings and solutions. In Bali, green
+                tech startups are developing biodegradable alternatives to plastic made from cassava and seaweed. In
+                Kalimantan, drones monitor deforestation in real-time, helping conservationists protect endangered
+                habitats. Smart irrigation systems are helping rice farmers conserve water while increasing yields.
+            </p>
+
+            <p class="mb-6 text-lg">
+                These innovations are more than just scientific—they are cultural. They signal a shift in how Indonesian
+                society is redefining its relationship with nature using the power of digital tools.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">Challenges: Bridging the Digital Divide</h2>
+
+            <p class="mb-6 text-lg">
+                Despite the progress, not everyone has equal access to this digital world. In remote parts of Papua and
+                Maluku, connectivity remains limited. Millions of Indonesians lack digital literacy, unable to access
+                the opportunities technology promises. Gender disparities and income inequality also persist, with rural
+                women being some of the most digitally excluded groups.
+            </p>
+
+            <p class="mb-6 text-lg">
+                NGOs and local governments are working to close this gap through digital training programs, low-cost
+                internet packages, and mobile learning centers. But sustainable change requires more than
+                infrastructure—it needs education, awareness, and community leadership.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">A Future in Our Hands</h2>
+
+            <p class="mb-6 text-lg">
+                As Indonesia advances toward a more digital future, the question is no longer whether technology will
+                change lives—it already has. The real question is: Who will shape its direction? Will we build systems
+                that empower, include, and respect all communities? Or will convenience come at the cost of equity and
+                sustainability?
+            </p>
+
+            <p class="mb-6 text-lg">
+                Technology is not destiny—it is a tool. And in the hands of informed, thoughtful people, it can create a
+                future where progress is not measured by machines, but by the humanity they serve.
+            </p>
+        </article>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="disqus_thread"></div>
+    <footer class="bg-blue-500 text-white text-center py-4">
+        <p>
+            © 2025 Student Life Hub. All rights reserved.
+        </p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://student-life-hub.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+    <script src="/halamanUtama/scrips.js"></script>
+</body>
+
+</html>

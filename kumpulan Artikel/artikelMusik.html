@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Student Life Hub
+    </title>
+    <link rel="icon" type="image/png" href="/assets/logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet" />
+    <script defer>
+        document.addEventListener("DOMContentLoaded", function () {
+            const button = document.getElementById('menu-button');
+            const menu = document.getElementById('menu');
+            if (button && menu) {
+                button.addEventListener('click', function () {
+                    menu.classList.toggle('hidden');
+                });
+            }
+        });
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <nav class="bg-blue-500 text-white p-4 flex justify-between items-center fixed top-0 left-0 w-full z-50">
+        <div class="flex items-center space-x-2 text-lg font-semibold">
+            <img alt="Logo Student Life Hub" class="h-10 w-10 rounded-md" src="/assets/logo.png" />
+            <a class="hover:border-b-2 border-white pb-1" href="/index.html">
+                Student Life Hub
+            </a>
+        </div>
+
+        <!-- Hamburger Menu Button -->
+        <button id="menu-button" class="md:hidden focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+
+        <!-- Navbar Links -->
+        <div id="menu"
+            class="hidden md:flex flex-col md:flex-row md:static absolute top-16 left-0 w-full md:w-auto md:bg-transparent bg-blue-500 md:items-center items-start p-4 md:p-0 shadow-lg md:shadow-none space-y-2 md:space-y-0 md:space-x-4">
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="/index.html">Home</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2"
+                href="/halamanUtama/halamanSemuaProfile.html">Student Profile</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="/halamanUtama/galeri.html">Gallery</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#event">Class Events</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#forum">Discussion Forums</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#tentang">About the Class</a>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Article Full Section Example - Like National Geographic Style -->
+    <section
+        class="max-w-4xl mx-auto px-6 py-12 text-gray-900 font-serif leading-relaxed bg-white shadow-xl rounded-lg">
+        <h1 class="text-5xl font-bold text-center text-gray-800 mb-4">
+            The Multifaceted Nature of Music: Exploring Its Types, Functions, and Cultural Significance
+        </h1>
+
+        <!-- Author and date -->
+        <p class="text-center text-sm text-gray-600 mb-10">
+            Written by <strong>Group 5</strong> — Thematic Focus: <em>Music & Culture</em> · June 2025
+        </p>
+
+        <figure class="mb-8">
+            <img src="/assets/musik.jpg" alt="Musical instruments and cultural motifs"
+                class="rounded-md shadow-md w-[400px] h-[400px] mx-auto">
+            <figcaption class="text-sm text-gray-500 text-center mt-2">
+                Music as a universal language weaving history and culture. © 2025 Cultural Harmonics
+            </figcaption>
+        </figure>
+
+        <article>
+            <h2 class="text-2xl font-semibold mb-4">Definition of Music as Art</h2>
+            <p class="mb-6 text-lg">
+                Music art unites “music” (from Greek <em>mousikos</em>, relating to the Muses) and “art” (human creation
+                expressing ideas or feelings). It is a discipline using tone, rhythm, harmony, and voice to convey
+                emotions, messages, or aesthetic values in a cohesive, harmonious form.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">History of Music Development</h2>
+            <p class="mb-4 text-lg">
+                The evolution of music spans prehistoric rituals to modern genres. Key eras:
+            </p>
+            <ul class="list-disc list-inside mb-6 text-lg">
+                <li><strong>Prehistoric Age (c. 180,000-100,000 years ago):</strong> Early instruments like bone flutes
+                    appear in human rituals, marking music's deep roots in communal life.</li>
+                <li><strong>Medieval Age (476-1572 AD):</strong> Predominantly liturgical music in churches; gradually
+                    musical ideas spread to secular contexts, creating new forms and notation systems.</li>
+                <li><strong>Renaissance (1500-1600 AD):</strong> Rapid development of polyphony, early keyboard
+                    instruments; composers like Léonin and Pérotin advance complexity in sacred and secular
+                    compositions.</li>
+                <li><strong>Baroque & Rococo (1600-1750 AD):</strong> Ornamental, intricate textures; composers such as
+                    Johann Sebastian Bach craft monumental works emphasizing contrast and drama.</li>
+                <li><strong>Classical Period (1750-1820):</strong> Emphasis on clarity, balance, and form; figures like
+                    Mozart, Haydn, and early Beethoven produce sonatas, symphonies, and chamber music with refined
+                    structures.</li>
+                <li><strong>Romantic Age (1810-1900):</strong> Focus on individual expression and deep emotion; expanded
+                    dynamics and tempo variations allow composers to convey personal and nationalistic themes.</li>
+            </ul>
+
+            <h2 class="text-2xl font-semibold mb-4">Genres and Examples</h2>
+
+            <h3 class="text-xl font-semibold mb-2">Pop</h3>
+            <p class="mb-6 text-lg">
+                Pop, short for “popular,” emphasizes accessible melodies and broad appeal. Originating in early
+                20th-century recordings, it thrives on catchy hooks and production that reflects contemporary trends. In
+                many cultures, pop shapes fashion and lifestyle.
+            </p>
+            <p class="mb-6 text-lg">
+                <strong>Example songs:</strong> “Dangerous Woman” by Ariana Grande; “Heavy and Back” by Chase Atlantic.
+                These tracks combine memorable melodies with emotional lyrics that resonate widely.
+            </p>
+
+            <h3 class="text-xl font-semibold mb-2">Jazz</h3>
+            <p class="mb-6 text-lg">
+                Jazz emerged in late 19th-early 20th-century America, blending African rhythms and European harmonies.
+                It values improvisation, syncopation, and expressive phrasing. Major phases include ragtime, Dixieland,
+                swing, bebop, soul jazz, bossa nova, and fusion.
+            </p>
+            <div class="border-l-4 border-blue-600 pl-4 italic text-gray-700 mb-6">
+                “Jazz is the sound of freedom and dialogue between musicians,” a sentiment echoed by many jazz artists.
+            </div>
+            <p class="mb-6 text-lg">
+                <strong>Example sub-genre:</strong> Bossa Nova - blending samba rhythms with jazz harmonies. Iconic
+                standards like “Fly Me to the Moon” (popularized by Frank Sinatra) illustrate jazz-inflected
+                interpretations that soothe and inspire.
+            </p>
+
+            <h3 class="text-xl font-semibold mb-2">Dangdut</h3>
+            <p class="mb-6 text-lg">
+                Dangdut is an Indonesian genre combining Malay, Indian, Arabic, and local influences, named after
+                onomatopoeic drum sounds. Since the 1950s and popularized by artists like Rhoma Irama in the 1970s, it
+                features rhythmic sway, melodic vocals, and lyrics about love, society, or spirituality.
+            </p>
+            <p class="mb-6 text-lg">
+                <strong>Example songs:</strong> “Sik Asik” by Ayu Ting Ting; “Meriang” by Cita Citata; “Begadang” by
+                Rhoma Irama—upbeat tracks with moral or social messages, enjoyed widely across generations.
+            </p>
+
+            <h3 class="text-xl font-semibold mb-2">Hip-Hop</h3>
+            <p class="mb-6 text-lg">
+                Hip-hop began in 1970s urban communities, encompassing rapping, DJing, breakdancing, and graffiti. Its
+                music centers on rhythmic spoken lyrics (rap) over beats, evolving into subgenres like trap, gangsta
+                rap, and more. It remains a powerful cultural movement influencing fashion, language, and social
+                commentary.
+            </p>
+            <p class="mb-6 text-lg">
+                <strong>Example song:</strong> “Pretty Savage” by BLACKPINK (hip-hop-influenced K-pop) highlights
+                confidence and independence with assertive beats and lyrics that resonate with listeners.
+            </p>
+
+            <h3 class="text-xl font-semibold mb-2">Classical</h3>
+            <p class="mb-6 text-lg">
+                Western classical music spans centuries, with roots in medieval chant through Baroque, Classical,
+                Romantic, and modern eras. Emphasizing formal structures (sonatas, symphonies, concertos), it explores
+                tonal development, orchestration, and emotional depth.
+            </p>
+            <p class="mb-6 text-lg">
+                <strong>Example work:</strong> <em>Eine Kleine Nachtmusik</em> by Mozart—a light yet elegant serenade
+                often used to enhance focus or relaxation, demonstrating classical balance and charm.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">Functions and Cultural Significance</h2>
+            <p class="mb-6 text-lg">
+                Music serves diverse roles: ritual and ceremony, social cohesion, personal expression, and emotional
+                catharsis. It reflects and shapes cultural identity, offers commentary on social issues, and fosters
+                community. Technological advances—from recording to streaming—expand access but also prompt questions
+                about authenticity and value.
+            </p>
+            <p class="mb-6 text-lg">
+                Across societies, music education and preservation of traditional forms help maintain heritage.
+                Simultaneously, fusion and innovation keep the art form vibrant. Engaging with music—listening,
+                performing, or creating—connects individuals across time and place, reinforcing music's role as a
+                universal human expression.
+            </p>
+        </article>
+    </section>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="disqus_thread"></div>
+    <footer class="bg-blue-500 text-white text-center py-4">
+        <p>
+            © 2025 Student Life Hub. All rights reserved.
+        </p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://student-life-hub.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+    <script src="/halamanUtama/scrips.js"></script>
+</body>
+
+</html>

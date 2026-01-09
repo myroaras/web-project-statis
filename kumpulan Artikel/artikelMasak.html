@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Student Life Hub
+    </title>
+    <link rel="icon" type="image/png" href="/assets/logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet" />
+    <script defer>
+        document.addEventListener("DOMContentLoaded", function () {
+            const button = document.getElementById('menu-button');
+            const menu = document.getElementById('menu');
+            if (button && menu) {
+                button.addEventListener('click', function () {
+                    menu.classList.toggle('hidden');
+                });
+            }
+        });
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <nav class="bg-blue-500 text-white p-4 flex justify-between items-center fixed top-0 left-0 w-full z-50">
+        <div class="flex items-center space-x-2 text-lg font-semibold">
+            <img alt="Logo Student Life Hub" class="h-10 w-10 rounded-md" src="/assets/logo.png" />
+            <a class="hover:border-b-2 border-white pb-1" href="/index.html">
+                Student Life Hub
+            </a>
+        </div>
+
+        <!-- Hamburger Menu Button -->
+        <button id="menu-button" class="md:hidden focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+
+        <!-- Navbar Links -->
+        <div id="menu"
+            class="hidden md:flex flex-col md:flex-row md:static absolute top-16 left-0 w-full md:w-auto md:bg-transparent bg-blue-500 md:items-center items-start p-4 md:p-0 shadow-lg md:shadow-none space-y-2 md:space-y-0 md:space-x-4">
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="/index.html">Home</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2"
+                href="/halamanUtama/halamanSemuaProfile.html">Student Profile</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="/halamanUtama/galeri.html">Gallery</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#event">Class Events</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#forum">Discussion Forums</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#tentang">About the Class</a>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Article Full Section Example - Like National Geographic Style -->
+    <section
+        class="max-w-4xl mx-auto px-6 py-12 text-gray-900 font-serif leading-relaxed bg-white shadow-xl rounded-lg">
+        <h1 class="text-5xl font-bold text-center text-gray-800 mb-4">
+            The Flavorful Journey: Rediscovering the Heart of Home Cooking
+        </h1>
+
+        <!-- Author and date -->
+        <p class="text-center text-sm text-gray-600 mb-10">
+            Written by <strong>Group 7</strong> — Thematic Focus: <em>Cooking & Lifestyle</em> · June 2025
+        </p>
+
+        <figure class="mb-8">
+            <img src="/assets/memasak.webp" alt="Delicious home-cooked meal"
+                class="rounded-md shadow-md w-[400px] h-[400px] mx-auto">
+            <figcaption class="text-sm text-gray-500 text-center mt-2">
+                A warm kitchen scene where flavors come to life. © 2025 Culinary Collective
+            </figcaption>
+        </figure>
+
+        <article>
+            <p class="mb-6 text-lg">
+                In kitchens around the world, a renaissance of home cooking is unfolding. Beyond mere sustenance,
+                cooking at home has become a canvas for creativity, a bridge between generations, and a way to nourish
+                both body and soul. As global tastes converge and technology enters the culinary realm, the art of
+                preparing meals remains rooted in tradition, community, and the simple joy of sharing.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">Home Cooking Renaissance: More Than a Trend</h2>
+
+            <p class="mb-6 text-lg">
+                The past years have seen a surge of interest in preparing meals from scratch. From novice cooks
+                experimenting with simple recipes to seasoned home chefs refining family heirlooms, the act of cooking
+                reconnects people with ingredients and heritage. Meal kits and online tutorials make techniques
+                accessible, yet the essence lies in adapting recipes to personal tastes and local produce.
+            </p>
+
+            <div class="border-l-4 border-blue-600 pl-4 italic text-gray-700 mb-6">
+                “Cooking at home is an invitation to explore flavors and memories,” reflects Chef Anisa Rahman, who
+                hosts community workshops in Bandung.
+            </div>
+
+            <h2 class="text-2xl font-semibold mb-4">Flavorful Innovations: Blending Tradition and Novelty</h2>
+
+            <p class="mb-6 text-lg">
+                Culinary creativity thrives on blending time-honored methods with fresh ideas. Traditional stews might
+                gain a twist with unexpected spices; fermentation techniques can be applied to new vegetables; and
+                classic desserts reimagined with healthier ingredients. Fusion cuisine at home encourages
+                experimentation while honoring roots, leading to dishes that surprise and comfort in equal measure.
+            </p>
+
+            <p class="mb-6 text-lg">
+                Sometimes, a simple garnish or a change in cooking method transforms a familiar dish into something new.
+                Encouraging home cooks to take small risks fosters confidence and deepens appreciation for the craft.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">Tech in the Kitchen: Smart Tools and Digital Guides</h2>
+
+            <p class="mb-6 text-lg">
+                Technology is quietly reshaping home cooking. Smart appliances—like precision cookers and app-connected
+                ovens—help achieve consistent results. Recipe apps offer step-by-step guidance, personalized
+                recommendations, and shopping lists. Virtual cooking classes connect learners with chefs worldwide.
+                While gadgets can streamline tasks, true mastery comes from understanding fundamentals: knife skills,
+                seasoning balance, and timing.
+            </p>
+
+            <div class="border-l-4 border-blue-600 pl-4 italic text-gray-700 mb-6">
+                “A tool is only as good as the cook’s intention. Technology should enhance, not replace, intuition,”
+                notes food technologist Rizky Permata.
+            </div>
+
+            <h2 class="text-2xl font-semibold mb-4">Sourcing Ingredients: From Market to Table</h2>
+
+            <p class="mb-6 text-lg">
+                Quality ingredients are the foundation of memorable meals. Home cooks are rediscovering local markets,
+                seasonal produce, and sustainable sourcing. Visiting farmers or small vendors fosters connection to the
+                origin of food and supports local economies. When fresh ingredients meet mindful preparation, even
+                simple recipes can shine.
+            </p>
+
+            <p class="mb-6 text-lg">
+                Preserving excess harvest through pickling, freezing, or drying reduces waste and extends the joy of
+                seasonal flavors throughout the year.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">Sustainability and Waste Reduction</h2>
+
+            <p class="mb-6 text-lg">
+                Home kitchens play a crucial role in reducing food waste. Planning meals, using leftovers creatively,
+                and composting scraps contribute to a more sustainable lifestyle. Adapting recipes to available
+                ingredients—rather than buying excessive items—teaches resourcefulness. By valuing each ingredient,
+                cooks honor both the environment and the effort behind food production.
+            </p>
+
+            <p class="mb-6 text-lg">
+                Community initiatives, such as shared gardens or food-sharing platforms, further strengthen collective
+                efforts toward sustainability.
+            </p>
+
+            <div class="border-l-4 border-blue-600 pl-4 italic text-gray-700 mb-6">
+                “Every peel and stem can find purpose—be it in the pot or the compost,” encourages environmental
+                advocate Sari Dewi.
+            </div>
+
+            <h2 class="text-2xl font-semibold mb-4">Cooking as Community and Culture</h2>
+
+            <p class="mb-6 text-lg">
+                Cooking brings people together. Family recipes passed down through generations carry stories and
+                traditions. Potlucks, neighborhood gatherings, and virtual dinner parties foster connection across
+                distances. Sharing a meal is an expression of care and belonging, reinforcing cultural identity while
+                inviting new influences.
+            </p>
+
+            <p class="mb-6 text-lg">
+                In multicultural homes, cooking becomes a dialogue—each dish a chapter in a collective narrative that
+                evolves with each cook’s perspective.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">Challenges: Time, Skills, and Accessibility</h2>
+
+            <p class="mb-6 text-lg">
+                Not everyone has abundant time or access to fresh ingredients. Busy schedules, budget constraints, or
+                limited kitchen tools can hinder regular home cooking. Addressing these challenges involves sharing
+                quick, healthy recipes; teaching basic techniques; and promoting community resources like shared
+                kitchens or ingredient co-ops. Building skills gradually empowers more people to participate in the
+                cooking renaissance.
+            </p>
+
+            <p class="mb-6 text-lg">
+                Online communities and local initiatives play a role in democratizing culinary knowledge and resources.
+            </p>
+
+            <div class="border-l-4 border-blue-600 pl-4 italic text-gray-700 mb-6">
+                “Small steps—like mastering one simple dish—build confidence to explore more,” advises home cook mentor
+                Ahmad Faizal.
+            </div>
+
+            <h2 class="text-2xl font-semibold mb-4">A Future Seasoned with Creativity</h2>
+
+            <p class="mb-6 text-lg">
+                As tastes evolve and new tools emerge, the essence of home cooking remains unchanged: creativity, care,
+                and the pleasure of sharing. Embracing both tradition and innovation, home cooks can craft meals that
+                nourish communities and the planet. The journey of cooking is lifelong—each recipe learned, each flavor
+                discovered, deepens our connection to food and to one another.
+            </p>
+
+            <p class="mb-6 text-lg">
+                Ultimately, the kitchen is a place of possibility: where ingredients transform, stories unfold, and
+                hearts are warmed by the simple act of cooking.
+            </p>
+        </article>
+    </section>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="disqus_thread"></div>
+    <footer class="bg-blue-500 text-white text-center py-4">
+        <p>
+            © 2025 Student Life Hub. All rights reserved.
+        </p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://student-life-hub.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+    <script src="/halamanUtama/scrips.js"></script>
+</body>
+
+</html>

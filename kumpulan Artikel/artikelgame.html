@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Student Life Hub
+    </title>
+    <link rel="icon" type="image/png" href="/assets/logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet" />
+    <script defer>
+        document.addEventListener("DOMContentLoaded", function () {
+            const button = document.getElementById('menu-button');
+            const menu = document.getElementById('menu');
+            if (button && menu) {
+                button.addEventListener('click', function () {
+                    menu.classList.toggle('hidden');
+                });
+            }
+        });
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <nav class="bg-blue-500 text-white p-4 flex justify-between items-center fixed top-0 left-0 w-full z-50">
+        <div class="flex items-center space-x-2 text-lg font-semibold">
+            <img alt="Logo Student Life Hub" class="h-10 w-10 rounded-md" src="/assets/logo.png" />
+            <a class="hover:border-b-2 border-white pb-1" href="/index.html">
+                Student Life Hub
+            </a>
+        </div>
+
+        <!-- Hamburger Menu Button -->
+        <button id="menu-button" class="md:hidden focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+
+        <!-- Navbar Links -->
+        <div id="menu"
+            class="hidden md:flex flex-col md:flex-row md:static absolute top-16 left-0 w-full md:w-auto md:bg-transparent bg-blue-500 md:items-center items-start p-4 md:p-0 shadow-lg md:shadow-none space-y-2 md:space-y-0 md:space-x-4">
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="/index.html">Home</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2"
+                href="/halamanUtama/halamanSemuaProfile.html">Student Profile</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="/halamanUtama/galeri.html">Gallery</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#event">Class Events</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#forum">Discussion Forums</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#tentang">About the Class</a>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section
+        class="max-w-4xl mx-auto px-6 py-12 text-gray-900 font-serif leading-relaxed bg-white shadow-xl rounded-lg mb-12">
+        <h1 class="text-5xl font-bold text-center text-gray-800 mb-4">
+            Gaming in 2025: A New Era of Digital Expression, Community, and Innovation
+        </h1>
+
+        <p class="text-center text-sm text-gray-600 mb-10">
+            Written by <strong>Group 2</strong> — Thematic Focus: <em>Games & Digital Life</em> · June 2025
+        </p>
+
+        <figure class="mb-8">
+            <img src="/assets/game.webp" alt="Futuristic gaming setup"
+                class="rounded-md shadow-md w-[400px] h-[400px] mx-auto">
+            <figcaption class="text-sm text-gray-500 text-center mt-2">
+                Gaming unites players across the globe. © 2025 Student Life Hub
+            </figcaption>
+        </figure>
+
+        <article>
+
+            <p class="mb-6 text-lg">
+                In 2025, video games are not just about fun—they’re a powerful tool for creativity, connection, and even
+                learning. With advances in virtual reality (VR), cloud computing, and social platforms, gaming has
+                evolved into a full digital lifestyle that brings people together from all walks of life.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">🎮 More Than Entertainment</h2>
+            <p class="mb-6 text-lg">
+                From mobile games to massive online multiplayer worlds, games offer more than distraction. They help us
+                build problem-solving skills, explore creativity, and express ourselves through avatars, gameplay
+                styles, and user-generated content. Games like *Minecraft*, *The Sims*, and *Roblox* continue to empower
+                players to build, share, and inspire.
+            </p>
+
+            <p class="mb-6 text-lg">
+                Esports, live streaming, and game creation have also become career paths. Platforms such as Twitch and
+                YouTube Gaming have turned gamers into influencers, while schools are even launching gaming-based
+                curriculums focused on strategy, design, and team collaboration.
+            </p>
+
+            <div class="border-l-4 border-indigo-600 pl-4 italic text-gray-700 mb-6">
+                “Gaming helped me find a global community that shares my passion,” says Malik, a college student who
+                leads an online game development club.
+            </div>
+
+            <h2 class="text-2xl font-semibold mb-4">🌐 Social & Emotional Benefits</h2>
+            <p class="mb-6 text-lg">
+                Beyond competition, games offer safe spaces for friendship and expression. Co-op adventures strengthen
+                bonds, and games with emotional storytelling allow players to explore real-life themes—like grief,
+                anxiety, or identity—in safe, imaginative ways.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">💡 Gaming Tips for 2025</h2>
+            <ul class="list-disc ml-6 mb-6 text-lg text-gray-700">
+                <li>Set screen-time limits and take breaks every hour.</li>
+                <li>Use blue-light filters and ergonomic chairs to protect your body and eyes.</li>
+                <li>Try new genres—you might find games that teach, relax, or even help you sleep.</li>
+                <li>Be kind online—respect makes the gaming community better for everyone.</li>
+            </ul>
+
+            <h2 class="text-2xl font-semibold mb-4">📱 Mobile and Inclusive Gaming</h2>
+            <p class="mb-6 text-lg">
+                With powerful smartphones and budget-friendly consoles, more people than ever can access quality games.
+                Accessibility features—like customizable controls and subtitles—allow players with disabilities to enjoy
+                gaming without barriers.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">🎨 The Future: Games as Art</h2>
+            <p class="mb-6 text-lg">
+                Games today are recognized as a form of modern art—combining visuals, music, storytelling, and
+                interactivity. Indie developers lead the way in creating experiences that challenge traditional
+                narratives and explore human emotion in meaningful ways.
+            </p>
+
+            <p class="mb-6 text-lg">
+                In short, gaming in 2025 is about **who we are**, **how we connect**, and **what we imagine**. Whether
+                you're battling dragons, designing cities, or racing through virtual worlds with friends, gaming is a
+                space where everyone can play, belong, and grow.
+            </p>
+
+        </article>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="disqus_thread"></div>
+    <footer class="bg-blue-500 text-white text-center py-4">
+        <p>
+            © 2025 Student Life Hub. All rights reserved.
+        </p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://student-life-hub.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+    <script src="/halamanUtama/scrips.js"></script>
+</body>
+
+</html>

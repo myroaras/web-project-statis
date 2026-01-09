@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Student Life Hub
+    </title>
+    <link rel="icon" type="image/png" href="/assets/logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet" />
+    <script defer>
+        document.addEventListener("DOMContentLoaded", function () {
+            const button = document.getElementById('menu-button');
+            const menu = document.getElementById('menu');
+            if (button && menu) {
+                button.addEventListener('click', function () {
+                    menu.classList.toggle('hidden');
+                });
+            }
+        });
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <nav class="bg-blue-500 text-white p-4 flex justify-between items-center fixed top-0 left-0 w-full z-50">
+        <div class="flex items-center space-x-2 text-lg font-semibold">
+            <img alt="Logo Student Life Hub" class="h-10 w-10 rounded-md" src="/assets/logo.png" />
+            <a class="hover:border-b-2 border-white pb-1" href="/index.html">
+                Student Life Hub
+            </a>
+        </div>
+
+        <!-- Hamburger Menu Button -->
+        <button id="menu-button" class="md:hidden focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+
+        <!-- Navbar Links -->
+        <div id="menu"
+            class="hidden md:flex flex-col md:flex-row md:static absolute top-16 left-0 w-full md:w-auto md:bg-transparent bg-blue-500 md:items-center items-start p-4 md:p-0 shadow-lg md:shadow-none space-y-2 md:space-y-0 md:space-x-4">
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="/index.html">Home</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2"
+                href="/halamanUtama/halamanSemuaProfile.html">Student Profile</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="/halamanUtama/galeri.html">Gallery</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#event">Class Events</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#forum">Discussion Forums</a>
+            <a class="hover:border-b-2 border-white pb-1 block py-2" href="#tentang">About the Class</a>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Article Full Section Example - Like National Geographic Style -->
+    <section
+        class="max-w-4xl mx-auto px-6 py-12 text-gray-900 font-serif leading-relaxed bg-white shadow-xl rounded-lg">
+        <h1 class="text-5xl font-bold text-center text-gray-800 mb-4">
+            The Fabric of Tomorrow: Fashion's Evolving Narrative
+        </h1>
+
+        <!-- Author and date -->
+        <p class="text-center text-sm text-gray-600 mb-10">
+            Written by <strong>Group 3</strong> — Thematic Focus: <em>Fashion & Culture</em> · June 2025
+        </p>
+
+        <figure class="mb-8">
+            <img src="/assets/fashion.jpg" alt="Modern Fashion Illustration"
+                class="rounded-md shadow-md w-[400px] h-[400px] mx-auto">
+            <figcaption class="text-sm text-gray-500 text-center mt-2">
+                A glimpse into the fusion of tradition and innovation in fashion. © 2025 Fashion Visionaries
+            </figcaption>
+        </figure>
+
+        <article>
+            <p class="mb-6 text-lg">
+                From bustling urban streets to remote artisan workshops, fashion is weaving new stories that blend
+                heritage with innovation. In a world increasingly conscious of sustainability, self-expression, and
+                digital influence, the garments we choose tell more than aesthetic preferences—they reflect values,
+                community, and the aspiration for a more mindful future.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">Everyday Runway: Style as Identity</h2>
+
+            <p class="mb-6 text-lg">
+                Once confined to glamorous catwalks, fashion today lives in everyday moments: the commuter's minimalist
+                outfit, the handcrafted accessories in local markets, and the upcycled wardrobe found through online
+                communities. Style has become a fluid language, enabling individuals to craft identities that transcend
+                geography and background.
+            </p>
+
+            <div class="border-l-4 border-blue-600 pl-4 italic text-gray-700 mb-6">
+                “True style emerges when personal story and garment craftsmanship meet,” says Lina Hartono, a
+                Jakarta-based stylist and cultural researcher.
+            </div>
+
+            <h2 class="text-2xl font-semibold mb-4">Sustainable Fashion: Beyond Trends</h2>
+
+            <p class="mb-6 text-lg">
+                The conversation around sustainability has shifted from niche to necessary. Brands and designers are
+                exploring eco-friendly materials—organic cotton, recycled polyester, and plant-based dyes—to reduce
+                environmental impact. Capsule wardrobes and rental services challenge the cycle of fast fashion by
+                prioritizing quality and longevity over rapid turnover.
+            </p>
+
+            <p class="mb-6 text-lg">
+                In Indonesia, a growing number of labels collaborate with local artisans, reviving traditional
+                techniques like ikat weaving and batik printing while ensuring fair wages. This approach not only
+                preserves cultural heritage but also supports communities and fosters transparency in the supply chain.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">Digital Influence: Social Media and E-commerce</h2>
+
+            <p class="mb-6 text-lg">
+                Social platforms have democratized fashion commentary and discovery. Micro-influencers spotlight
+                emerging designers; virtual try-on tools let consumers experiment with styles before purchase; and
+                live-stream shopping events bring interactive experiences to living rooms. E-commerce platforms tailor
+                recommendations using AI, yet also raise questions about data privacy and digital ethics.
+            </p>
+
+            <div class="border-l-4 border-blue-600 pl-4 italic text-gray-700 mb-6">
+                “We're witnessing a hybrid reality where virtual fashion shows and physical pop-ups coexist, inviting
+                audiences worldwide,” notes Rahul Prasetyo, digital marketing strategist.
+            </div>
+
+            <h2 class="text-2xl font-semibold mb-4">Local Craftsmanship: Preserving Traditions</h2>
+
+            <p class="mb-6 text-lg">
+                Across archipelagos, small-scale ateliers are reimagining heritage textiles for contemporary tastes.
+                Craftspeople innovate by blending age-old methods with modern silhouettes, appealing to both domestic
+                and international markets. Collaborative platforms connect these artisans with designers and consumers,
+                ensuring that traditional skills remain economically viable.
+            </p>
+
+            <p class="mb-6 text-lg">
+                Workshops and pop-up exhibitions encourage dialogue between creators and audiences, deepening
+                appreciation for the stories behind each piece. In this way, fashion becomes a bridge between
+                generations and a catalyst for cultural pride.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">The Rise of Gender-Neutral and Inclusive Design</h2>
+
+            <p class="mb-6 text-lg">
+                Boundaries of gendered clothing are fading as designers embrace inclusive cuts and silhouettes.
+                Gender-neutral collections challenge conventional norms, offering pieces that adapt to diverse bodies
+                and identities. Moreover, adaptive fashion for people with disabilities gains visibility, prioritizing
+                functional design without compromising style.
+            </p>
+
+            <h2 class="text-2xl font-semibold mb-4">Challenges: Fast Fashion and Waste</h2>
+
+            <p class="mb-6 text-lg">
+                Despite progress, the fashion industry still grapples with overproduction and waste. Discarded clothing
+                contributes to environmental degradation, while supply chain opacity can mask labor issues. Tackling
+                these challenges demands systemic change: from material innovation and circular business models to
+                regulatory frameworks that incentivize responsibility.
+            </p>
+
+            <p class="mb-6 text-lg">
+                Consumers play a pivotal role by questioning consumption habits, supporting transparent brands, and
+                exploring secondhand markets. Education initiatives—workshops on garment care, mending, and
+                upcycling—empower individuals to extend the life cycle of their clothing.
+            </p>
+
+            <div class="border-l-4 border-blue-600 pl-4 italic text-gray-700 mb-6">
+                “Every stitch we save from landfill is a step toward a healthier planet,” reflects Maya Nuraini, founder
+                of a Jakarta-based upcycling collective.
+            </div>
+
+            <h2 class="text-2xl font-semibold mb-4">A Future Woven with Purpose</h2>
+
+            <p class="mb-6 text-lg">
+                As technology reshapes production, retail, and storytelling, the core of fashion remains human: the
+                desire to express, connect, and respect our world. Innovations like 3D knitting, digital fashion shows,
+                and blockchain-based provenance tracking promise transparency and customization. Yet the ultimate
+                measure of progress lies in aligning creativity with ethics.
+            </p>
+
+            <p class="mb-6 text-lg">
+                The path forward calls for collaboration among designers, technologists, policymakers, and communities.
+                By weaving sustainability, inclusivity, and tradition into the fabric of fashion, we can ensure that
+                style not only reflects who we are today but also nurtures the planet and its people for generations to
+                come.
+            </p>
+        </article>
+    </section>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="disqus_thread"></div>
+    <footer class="bg-blue-500 text-white text-center py-4">
+        <p>
+            © 2025 Student Life Hub. All rights reserved.
+        </p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://student-life-hub.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+    <script src="/halamanUtama/scrips.js"></script>
+</body>
+
+</html>
