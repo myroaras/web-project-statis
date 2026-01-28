@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "judul": "Belajar PHP",
+        "penulis": "Andi",
+        "tahunTerbit": 2023,
+        "tipe": "biasa",
+        "status": "tersedia"
+    },
+    {
+        "judul": "buku 1",
+        "penulis": "myro",
+        "tahunTerbit": 2023,
+        "tipe": "referensi",
+        "id": 2,
+        "status": "tersedia"
+    },
+    {
+        "judul": "hello world",
+        "penulis": "aras",
+        "tahunTerbit": 2027,
+        "tipe": "biasa",
+        "id": 3,
+        "status": "tersedia"
+    }
+]
